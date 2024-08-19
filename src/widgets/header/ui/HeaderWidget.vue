@@ -1,8 +1,10 @@
 <script setup lang="ts">
 import { storeToRefs } from "pinia";
+import { router } from "src/app/router";
 import { useHoroscopeStore } from "src/entities/horoscope/model/store";
 import { useUserStore } from "src/entities/user";
 import { RuFlag, UsFlag } from "src/shared/assets";
+
 const text = {
   en: {
     name: "Horoscope online",
@@ -22,6 +24,7 @@ const { fetchData } = horoscopeStore;
 function onCLickFlag(lang: "en" | "ru") {
   setLanguage(lang);
   fetchData(lang);
+  router.push("/");
 }
 </script>
 <template>
