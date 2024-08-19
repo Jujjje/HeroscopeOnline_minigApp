@@ -1,5 +1,9 @@
-# Vue 3 + TypeScript + Vite
+# Vue 3 + TypeScript + Vite + vue-tg
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+1Для сборки и развертывания проекта переходим на vercel.com, добавляем репозиторий и билдим проект с настройками по умолчанию.
+2.Переходим в @botfather, создаём бота, далее создаём tg mini app на основе нашего бота, в качестве ссылки прописываем наш сайт на vercel
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+Ссылка на приложение [text](https://t.me/WhiteBoardTestTask_bot/testTask_tgApp)
+
+Внимание
+На момент вечера 19 августа, сервер из 3 задания не работал, поэтому я сделал приложение на своём со своими описаниями знаков
